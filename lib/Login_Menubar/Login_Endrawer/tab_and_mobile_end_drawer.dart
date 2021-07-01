@@ -121,7 +121,7 @@ class _TabAndMobileEndDrawerState extends State<TabAndMobileEndDrawer> {
             onPressed: () async {
               SharedPreferences prefs = await SharedPreferences.getInstance();
 
-              await prefs.setString('user', null);
+              await prefs.setBool('isSession', false);
               LoginResponsive.registerNumber = null;
 
               locator<NavigationService>().navigateTo(HomeRoute);

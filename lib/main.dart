@@ -29,6 +29,7 @@ void main() {
 
 class MyApp extends StatefulWidget {
   static String session;
+  static bool isSession;
   @override
   _MyAppState createState() => _MyAppState();
 }
@@ -41,14 +42,16 @@ class _MyAppState extends State<MyApp> {
   sessionCheck() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     MyApp.session = (prefs.getString('user') ?? null);
-    route = MyApp.session != null
+    MyApp.isSession = (prefs.getBool('isSession') ?? null);
+
+    route = MyApp.isSession == true
 
         ///'/ClassRoom?userNumber=$session&typeOfCourse=${valueController.courseType.value}'
         ? '/ClassRoom?userNumber=${MyApp.session}&typeOfCourse=${valueController.courseType.value}'
         : HomeRoute;
     print("routeChecking in mainpage${route}");
     print("routeChecking in mainpage session${MyApp.session}");
-    MyApp.session != null
+    MyApp.isSession == true
         ? valueController.navebars.value = 'Login'
         : valueController.navebars.value = 'Home';
   }

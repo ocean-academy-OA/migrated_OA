@@ -4,6 +4,7 @@ import 'package:flutter_app_newocean/Buttons/pop_up_menu_botton_custamize.dart';
 import 'package:flutter_app_newocean/Buttons/popupMenu.dart';
 import 'package:flutter_app_newocean/Landing/Home_view.dart';
 import 'package:flutter_app_newocean/Login/Login_View/Login_responsive.dart';
+import 'package:flutter_app_newocean/Login/Login_View/otp.dart';
 import 'package:flutter_app_newocean/getx_controller.dart';
 import 'package:flutter_app_newocean/ocean_icon/ocean_icons.dart';
 import 'package:flutter_app_newocean/route/navigation_locator.dart';
@@ -130,31 +131,32 @@ class _DesktopLoginMenuState extends State<DesktopLoginMenu> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  GestureDetector(
-                    onTap: () {
-                      // Provider.of<Routing>(context, listen: false)
-                      //     .updateRouting(widget: Home());
-                      // Provider.of<MenuBar>(context, listen: false)
-                      //     .updateMenu(widget: NavbarRouting());
-                    },
-                    child: Row(
-                      children: [
-                        Icon(
-                          Ocean.oa,
-                          size: 70.0,
-                          color: Colors.white,
-                        ),
-                        SizedBox(
-                          width: 10,
-                        ),
-                        Text(
-                          "ocean academy",
-                          style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              color: Colors.white,
-                              fontSize: 35),
-                        ),
-                      ],
+                  MouseRegion(
+                    cursor: SystemMouseCursors.click,
+                    child: GestureDetector(
+                      onTap: () {
+                        locator<NavigationService>().navigateTo(
+                            '/ClassRoom?userNumber=${OTP.userID}&typeOfCourse=${valueController.courseType.value}');
+                      },
+                      child: Row(
+                        children: [
+                          Icon(
+                            Ocean.oa,
+                            size: 70.0,
+                            color: Colors.white,
+                          ),
+                          SizedBox(
+                            width: 10,
+                          ),
+                          Text(
+                            "ocean academy",
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                                fontSize: 35),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                   Container(

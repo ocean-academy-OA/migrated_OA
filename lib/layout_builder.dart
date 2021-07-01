@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_newocean/ClassRoom/CourseView/bottom_navigation.dart';
 import 'package:flutter_app_newocean/Landing/Home_view.dart';
@@ -42,6 +43,21 @@ class _MainLayoutState extends State<MainLayout> {
   }
 
   final valueController = Get.find<ValueListener>();
+  final _firestore = FirebaseFirestore.instance;
+  void getNotification() async {
+    final time = await _firestore.collection('Webinar').get();
+    for (var i in time.docs) {
+      print(i.data());
+      print('|||||||||||||||||||||||||||||||||||||||____________');
+    }
+  }
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    getNotification();
+  }
 
   @override
   Widget build(BuildContext context) {

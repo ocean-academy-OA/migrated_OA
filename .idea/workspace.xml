@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87fed383-5a4e-429d-81ff-dc833cd112da" name="Default Changelist" comment="" />
+    <list default="true" id="87fed383-5a4e-429d-81ff-dc833cd112da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Login/Login_View/otp.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Login/Login_View/otp.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Login_Menubar/LoginMenuView/desktop_login_menu.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Login_Menubar/LoginMenuView/desktop_login_menu.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Login_Menubar/Login_Endrawer/tab_and_mobile_end_drawer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Login_Menubar/Login_Endrawer/tab_and_mobile_end_drawer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Menu/Menu_DeskTop.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Menu/Menu_DeskTop.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Webinar/WebinarCard_Desktop/webinar_footer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Webinar/WebinarCard_Desktop/webinar_footer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/generated_plugin_registrant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generated_plugin_registrant.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/layout_builder.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/layout_builder.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1uTm6D6REmPjSGGobDpi1KyG2l6" />
   <component name="ProjectViewState">
@@ -18,7 +37,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../thamizh/webproject" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
@@ -45,30 +64,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624708295494" />
-    <state width="1863" height="459" key="GridCell.Tab.0.bottom" timestamp="1625131364537">
+    <state width="1863" height="139" key="GridCell.Tab.0.bottom" timestamp="1625148822788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="459" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625131364537" />
-    <state width="1863" height="459" key="GridCell.Tab.0.center" timestamp="1625131364536">
+    <state width="1863" height="139" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
+    <state width="1863" height="139" key="GridCell.Tab.0.center" timestamp="1625148822788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="459" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625131364536" />
-    <state width="1863" height="459" key="GridCell.Tab.0.left" timestamp="1625131364536">
+    <state width="1863" height="139" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
+    <state width="1863" height="139" key="GridCell.Tab.0.left" timestamp="1625148822788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="459" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625131364536" />
-    <state width="1863" height="459" key="GridCell.Tab.0.right" timestamp="1625131364537">
+    <state width="1863" height="139" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
+    <state width="1863" height="139" key="GridCell.Tab.0.right" timestamp="1625148822788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="459" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625131364537" />
+    <state width="1863" height="139" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
+    <state x="336" y="77" key="SettingsEditor" timestamp="1625150768991">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="336" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1625150768991" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1625139495921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625139495921" />
     <state x="515" y="41" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1625123114965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="515" y="41" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1625123114965" />
-    <state x="645" y="246" width="712" height="668" key="find.popup" timestamp="1625134038942">
+    <state x="645" y="246" width="712" height="792" key="find.popup" timestamp="1625151084813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="246" width="712" height="668" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625134038942" />
+    <state x="645" y="246" width="712" height="792" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625151084813" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -77,6 +104,12 @@
           <url>file://$PROJECT_DIR$/lib/Login/Login_View/log_in.dart</url>
           <line>188</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <condition expression="wbinar  upcoming" language="Dart" />
+          <url>file://$PROJECT_DIR$/lib/Webinar/flash_notification.dart</url>
+          <line>212</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -100,27 +100,34 @@ class _NavbarRoutingState extends State<NavbarRouting>
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            GestureDetector(
-              onTap: () {
-                locator<NavigationService>().navigateTo(HomeRoute);
-              },
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: <Widget>[
-                  Icon(
-                    Ocean.oa,
-                    color: Color(0xFF0091D2),
-                    size: 50,
-                  ),
-                  Text(
-                    "ocean academy",
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Color(0xFF0091D2),
-                        fontSize: 30),
-                  ),
-                ],
+            MouseRegion(
+              cursor: SystemMouseCursors.click,
+              child: GestureDetector(
+                onTap: () {
+                  if (LoginResponsive.registerNumber == null) {
+                    locator<NavigationService>().navigateTo(HomeRoute);
+                  } else {
+                    Get.back();
+                  }
+                },
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: <Widget>[
+                    Icon(
+                      Ocean.oa,
+                      color: Color(0xFF0091D2),
+                      size: 50,
+                    ),
+                    Text(
+                      "ocean academy",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Color(0xFF0091D2),
+                          fontSize: 30),
+                    ),
+                  ],
+                ),
               ),
             ),
             Row(

@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_newocean/Footer/desktop_footer_lg.dart';
 import 'package:flutter_app_newocean/Home/DesktopHome_subTopics/how_it_works.dart';
@@ -26,7 +27,7 @@ class _DesktopHomeState extends State<DesktopHome> {
   String phoneNumberAlert;
   String emailAlert;
   bool flag = true;
-
+  dynamic thtest;
   Widget _getChild() {
     return ListView.builder(
       physics: AlwaysScrollableScrollPhysics(),

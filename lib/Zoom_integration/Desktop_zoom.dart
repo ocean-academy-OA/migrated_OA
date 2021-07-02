@@ -56,6 +56,9 @@ class _IframeScreenState extends State<IframeScreen> {
   void initState() {
     super.initState();
     _iframeElement.src = _source;
+
+    _iframeElement.allow = "microphone;camera";
+
     _iframeElement.style.border = 'none';
 
     // ignore: undefined_prefixed_name

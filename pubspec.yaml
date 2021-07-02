@@ -57,6 +57,7 @@ dependencies:
   file_picker: ^3.0.3
   intl: ^0.17.0
   otp_text_field: ^1.0.2
+#  shared_preferences: ^0.5.12+4
   shared_preferences: ^2.0.6
   timer_count_down: ^2.2.0
   cloud_functions: ^1.1.2

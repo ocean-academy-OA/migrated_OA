@@ -29,7 +29,6 @@ class MobileTopNavigationBar extends StatelessWidget {
                 wordSpacing: 1.8,
                 fontFamily: kfontname,
                 fontWeight: FontWeight.w100,
-                overflow: TextOverflow.visible,
               ),
             ),
           ),

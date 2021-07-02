@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_newocean/ClassRoom/CourseView/bottom_navigation.dart';
@@ -8,6 +10,7 @@ import 'package:flutter_app_newocean/all_end_drawer.dart';
 import 'package:flutter_app_newocean/all_menubar.dart';
 import 'package:flutter_app_newocean/getx_controller.dart';
 import 'package:get/get.dart';
+import 'package:intl/intl.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'route/navigation_locator.dart';
@@ -35,23 +38,35 @@ class MainLayout extends StatefulWidget {
 }
 
 class _MainLayoutState extends State<MainLayout> {
-  bool isWebinar = true;
+  bool isWebinar = false;
   getSession() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     LoginResponsive.registerNumber = (prefs.getString('user') ?? null);
     print("layout_builder session ${LoginResponsive.registerNumber}");
+    // isWebinar = prefs.getBool('notification') ?? true;
   }
 
   final valueController = Get.find<ValueListener>();
   final _firestore = FirebaseFirestore.instance;
   void getNotification() async {
+    print('|||||||||||||||||||||||||||||||||||||||______|||______');
     final time = await _firestore.collection('Webinar').get();
     for (var i in time.docs) {
-      print(i.data());
+      Timestamp time = i['timestamp'];
+      DateTime newDate = DateTime.parse(time.toDate().toString());
+      if (newDate.compareTo(DateTime.now()) > 0) {
+        setState(() {
+          isWebinar = true;
+        });
+      }
+
+      print(DateTime.now());
+
       print('|||||||||||||||||||||||||||||||||||||||____________');
     }
   }
 
+  bool dismissNotification = true;
   @override
   void initState() {
     // TODO: implement initState
@@ -149,18 +164,37 @@ class _MainLayoutState extends State<MainLayout> {
             height: MediaQuery.of(context).size.height,
             child: Column(
               children: [
-                sizingInformation.deviceScreenType == DeviceScreenType.desktop
-                    ? Obx(() {
-                        return Visibility(
-                          visible: valueController.isFlashNotification.value,
-                          child: FlashNotification(
-                            dismissNotification: () {
-                              valueController.isFlashNotification.value = false;
-                            },
-                          ),
-                        );
-                      })
-                    : SizedBox(),
+                Visibility(
+                  visible: isWebinar,
+                  child: FlashNotification(
+                    dismissNotification: () {
+                      setState(() {
+                        isWebinar = false;
+                      });
+                    },
+                  ),
+                ),
+                // sizingInformation.deviceScreenType == DeviceScreenType.desktop
+                //     ? Visibility(
+                //         visible: true,
+                //         // visible: valueController.isFlashNotification.value,
+                //         child: FlashNotification(
+                //           dismissNotification: () {
+                //             valueController.isFlashNotification.value = false;
+                //           },
+                //         ),
+                //       )
+                //     // ? Obx(() {
+                //     //     return Visibility(
+                //     //       visible: valueController.isFlashNotification.value,
+                //     //       child: FlashNotification(
+                //     //         dismissNotification: () {
+                //     //           valueController.isFlashNotification.value = false;
+                //     //         },
+                //     //       ),
+                //     //     );
+                //     //   })
+                //     : SizedBox(),
                 widget.menubar,
                 // ResponsiveLoginMenu(),
                 sizingInformation.deviceScreenType == DeviceScreenType.desktop

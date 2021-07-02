@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 import 'package:flutter_app_newocean/Login_Menubar/responsive_login_menu.dart';
@@ -41,17 +43,16 @@ class _MyAppState extends State<MyApp> {
 
   sessionCheck() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    MyApp.session = (prefs.getString('user') ?? null);
-    MyApp.isSession = (prefs.getBool('isSession') ?? null);
+    MyApp.session = prefs.getString('user') ?? null;
 
-    route = MyApp.isSession == true
+    route = MyApp.session != null
 
         ///'/ClassRoom?userNumber=$session&typeOfCourse=${valueController.courseType.value}'
         ? '/ClassRoom?userNumber=${MyApp.session}&typeOfCourse=${valueController.courseType.value}'
         : HomeRoute;
     print("routeChecking in mainpage${route}");
     print("routeChecking in mainpage session${MyApp.session}");
-    MyApp.isSession == true
+    MyApp.session != null
         ? valueController.navebars.value = 'Login'
         : valueController.navebars.value = 'Home';
   }

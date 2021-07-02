@@ -50,7 +50,7 @@ class _HorizontalMenuState extends State<HorizontalMenu> {
 
   getSession() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    LoginResponsive.registerNumber = (prefs.getString('user') ?? 'null');
+    LoginResponsive.registerNumber = (prefs.getString('user') ?? null);
     userCourses();
     print("${CoursesView.batchId}CoursesView.batchId");
   }

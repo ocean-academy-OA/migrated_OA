@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_app_newocean/Login/Login_View/Login_responsive.dart';
 import 'package:flutter_app_newocean/Login_Menubar/Login_Endrawer/profile_items.dart';
@@ -119,13 +121,17 @@ class _TabAndMobileEndDrawerState extends State<TabAndMobileEndDrawer> {
             icon: Icons.logout,
             label: 'LogOut',
             onPressed: () async {
-              SharedPreferences prefs = await SharedPreferences.getInstance();
+              // SharedPreferences prefs = await SharedPreferences.getInstance();
+              //
+              // await prefs.setString('user', null);
+              // window.localStorage["flutter.user"] = null;
+              window.localStorage.remove('flutter.user');
 
-              await prefs.setBool('isSession', false);
               LoginResponsive.registerNumber = null;
+              valueController.navebars.value = 'Home';
 
               locator<NavigationService>().navigateTo(HomeRoute);
-              valueController.navebars.value = 'Home';
+
               state.close();
             },
           ),

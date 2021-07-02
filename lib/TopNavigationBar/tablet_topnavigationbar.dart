@@ -25,7 +25,6 @@ class TabletTopNavigationBar extends StatelessWidget {
                 wordSpacing: 1.8,
                 fontFamily: kfontname,
                 fontWeight: FontWeight.w500,
-                overflow: TextOverflow.visible,
               ),
             ),
           ),

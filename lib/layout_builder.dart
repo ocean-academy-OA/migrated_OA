@@ -164,37 +164,37 @@ class _MainLayoutState extends State<MainLayout> {
             height: MediaQuery.of(context).size.height,
             child: Column(
               children: [
-                Visibility(
-                  visible: isWebinar,
-                  child: FlashNotification(
-                    dismissNotification: () {
-                      setState(() {
-                        isWebinar = false;
-                      });
-                    },
-                  ),
-                ),
-                // sizingInformation.deviceScreenType == DeviceScreenType.desktop
-                //     ? Visibility(
-                //         visible: true,
-                //         // visible: valueController.isFlashNotification.value,
-                //         child: FlashNotification(
-                //           dismissNotification: () {
-                //             valueController.isFlashNotification.value = false;
-                //           },
-                //         ),
-                //       )
-                //     // ? Obx(() {
-                //     //     return Visibility(
-                //     //       visible: valueController.isFlashNotification.value,
-                //     //       child: FlashNotification(
-                //     //         dismissNotification: () {
-                //     //           valueController.isFlashNotification.value = false;
-                //     //         },
-                //     //       ),
-                //     //     );
-                //     //   })
-                //     : SizedBox(),
+                sizingInformation.deviceScreenType == DeviceScreenType.desktop
+                    ? Visibility(
+                        visible: isWebinar,
+                        child: FlashNotification(
+                          dismissNotification: () {
+                            setState(() {
+                              isWebinar = false;
+                            });
+                          },
+                        ),
+                      )
+                    //     ? Visibility(
+                    //         visible: true,
+                    //         // visible: valueController.isFlashNotification.value,
+                    //         child: FlashNotification(
+                    //           dismissNotification: () {
+                    //             valueController.isFlashNotification.value = false;
+                    //           },
+                    //         ),
+                    //       )
+                    //     // ? Obx(() {
+                    //     //     return Visibility(
+                    //     //       visible: valueController.isFlashNotification.value,
+                    //     //       child: FlashNotification(
+                    //     //         dismissNotification: () {
+                    //     //           valueController.isFlashNotification.value = false;
+                    //     //         },
+                    //     //       ),
+                    //     //     );
+                    //     //   })
+                    : SizedBox(),
                 widget.menubar,
                 // ResponsiveLoginMenu(),
                 sizingInformation.deviceScreenType == DeviceScreenType.desktop

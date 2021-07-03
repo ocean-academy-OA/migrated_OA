@@ -19,6 +19,8 @@ const String UpcomingWebinarRoute = "/UpcomingWebinar";
 const String WebinarJoinRoute = "/WebinarJoin?id=course";
 const String ZoomLink =
     "/zoomlink?zoomLink=link&username=abc&password=zoomPassword";
+// const String WebinarZoom =
+//     "/zoomlink?zoomLink=link&username=abc&password=zoomPassword";
 const String JoinSuccessfullyRoute = "/JoinSuccessfully?id=name";
 const String Purchase = "/Purchase?id=+91 1234567890";
 const String Certificate = "/Certificate?id=+91 1234567890";

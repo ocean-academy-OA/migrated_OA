@@ -57,7 +57,8 @@ class _IframeScreenState extends State<IframeScreen> {
     super.initState();
     _iframeElement.src = _source;
 
-    _iframeElement.allow = "microphone;camera";
+    _iframeElement.allow = "microphone";
+    // _iframeElement.allowFullscreen = true;
 
     _iframeElement.style.border = 'none';
 

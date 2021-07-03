@@ -883,7 +883,7 @@ class _SingleWebinarDBState extends State<SingleWebinarDB> {
                   builder: (context, snapshot) {
                     if (snapshot.connectionState == ConnectionState.done) {
                       return Container(
-                        height: 510,
+                        height: 550,
                         width: 870,
                         child: MouseRegion(
                           onEnter: onenter,
@@ -892,6 +892,7 @@ class _SingleWebinarDBState extends State<SingleWebinarDB> {
                             alignment: Alignment.center,
                             children: [
                               Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   AspectRatio(
                                     aspectRatio: widget

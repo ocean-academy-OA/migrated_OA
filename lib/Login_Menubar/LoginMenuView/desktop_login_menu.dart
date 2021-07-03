@@ -344,7 +344,7 @@ class _ProfilePictureDbState extends State<ProfilePictureDb> {
       onPressed: () {
         scaffoldKey.currentState.openEndDrawer();
       },
-      child: widget.profilePicture != null
+      child: widget.profilePicture != null && widget.profilePicture != ""
           ? ClipRRect(
               borderRadius: BorderRadius.circular(100.0),
               child: Image.network(widget.profilePicture,

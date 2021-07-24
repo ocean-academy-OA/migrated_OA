@@ -166,41 +166,69 @@ class MobileAboutUs extends StatelessWidget {
               Wrap(alignment: WrapAlignment.center, children: [
                 StreamBuilder<QuerySnapshot>(
                   stream: _firestore.collection('Mentor').snapshots(),
-                  // ignore: missing_return
                   builder: (context, snapshot) {
                     if (!snapshot.hasData) {
-                      return Text("Loading...");
+                      return Text('Loading...');
                     } else {
-                      final messages = snapshot.data.docs;
-                      List<ContainerWidget> trainerContent = [];
-
-                      for (var message in messages) {
-                        final trainerName = message['name'];
-                        final trainerDesignation = message['designation'];
-                        final trainerImage = message['image'];
-                        final fbLink = message['fbLink'];
-                        final gmailLink = message['gmailLink'];
-                        final linkedinLink = message['linkedinLink'];
-                        final twitter = message['twitter'];
-
-                        final messageContent = ContainerWidget(
-                          designation: trainerDesignation,
-                          trainerName: trainerName,
-                          image: trainerImage,
-                          fbLink: fbLink,
-                          gmailLink: gmailLink,
-                          linkedinLink: linkedinLink,
-                          twitterLink: twitter,
+                      final massages = snapshot.data;
+                      print('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ${massages}');
+                      List<Widget> mentors = [];
+                      for (var i in massages.docs) {
+                        print('%%%%%%%%%%%%%%%${i['name']}');
+                        final mentor = ContainerWidget(
+                          fbLink: i['fbLink'],
+                          gmailLink: i['gmailLink'],
+                          linkedinLink: i['linkedinLink'],
+                          twitterLink: i['twitterLink'],
+                          designation: i['designation'],
+                          trainerName: i['name'],
+                          image: i['image'],
                         );
-                        trainerContent.add(messageContent);
-                        // }
+                        mentors.add(mentor);
                       }
                       return Wrap(
-                        children: trainerContent,
+                        children: mentors,
                       );
                     }
                   },
-                ),
+                )
+                // StreamBuilder<QuerySnapshot>(
+                //   stream: _firestore.collection('Mentor').snapshots(),
+                //   // ignore: missing_return
+                //   builder: (context, snapshot) {
+                //     if (!snapshot.hasData) {
+                //       return Text("Loading...");
+                //     } else {
+                //       final messages = snapshot.data.docs;
+                //       List<ContainerWidget> trainerContent = [];
+                //
+                //       for (var message in messages) {
+                //         final trainerName = message['name'];
+                //         final trainerDesignation = message['designation'];
+                //         final trainerImage = message['image'];
+                //         final fbLink = message['fbLink'];
+                //         final gmailLink = message['gmailLink'];
+                //         final linkedinLink = message['linkedinLink'];
+                //         final twitter = message['twitter'];
+                //
+                //         final messageContent = ContainerWidget(
+                //           designation: trainerDesignation,
+                //           trainerName: trainerName,
+                //           image: trainerImage,
+                //           fbLink: fbLink,
+                //           gmailLink: gmailLink,
+                //           linkedinLink: linkedinLink,
+                //           twitterLink: twitter,
+                //         );
+                //         trainerContent.add(messageContent);
+                //         // }
+                //       }
+                //       return Wrap(
+                //         children: trainerContent,
+                //       );
+                //     }
+                //   },
+                // ),
               ]),
               Footer()
             ],

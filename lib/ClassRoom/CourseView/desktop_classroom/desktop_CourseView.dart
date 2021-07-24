@@ -536,6 +536,8 @@ class _ContentWidgetState extends State<ContentWidget> {
                               secondsFormat)
                           .difference(DateTime.now())
                           .inSeconds;
+                      print(
+                          '[[[[[[[[ $defrenceTime > ${-duration * 60} ]]]]]]]]]]]');
                       if (defrenceTime > -duration * 60 && defrenceTime < 600) {
                         courseIDCount = 'Join Now';
                       } else if (defrenceTime <= -duration * 60) {

@@ -12,7 +12,15 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(body: ResponsiveWbinarClass()),
+      home: Scaffold(
+          appBar: PreferredSize(
+              child: Container(
+                child: Row(
+                  children: [],
+                ),
+              ),
+              preferredSize: Size.fromHeight(70.0)),
+          body: ResponsiveWbinarClass()),
     );
   }
 }

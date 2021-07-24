@@ -20,16 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87fed383-5a4e-429d-81ff-dc833cd112da" name="Default Changelist" comment="webinar started">
-      <change afterPath="$PROJECT_DIR$/lib/Webinar/webinr_class/desktop_webinar_class.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Webinar/webinr_class/mobile_webinar_class.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Webinar/webinr_class/responsive_webinar_class.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/generated_plugin_registrant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generated_plugin_registrant.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/layout_builder.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/layout_builder.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Course/course_description/course_details.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Course/course_description/course_details.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Course/course_description/mobile_course_details.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Course/course_description/mobile_course_details.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/testmain.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/testmain.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +52,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../thamizh/webproject" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="emulator" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunAnythingCache">
@@ -67,13 +61,13 @@
       <command value="testMain" />
     </option>
   </component>
-  <component name="RunManager" selected="Flutter.main.dart (1)">
+  <component name="RunManager" selected="Flutter.main.dart">
     <configuration name="main.dart (1)" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
       <method v="2" />
     </configuration>
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/lib/testmain.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
       <method v="2" />
     </configuration>
     <list>
@@ -118,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625314029255</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="webinar started">
+      <created>1625321721979</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625321721979</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,55 +140,61 @@
     <option name="LAST_COMMIT_MESSAGE" value="webinar started" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625315731394">
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627110828216">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1625315731394" />
-    <state x="689" y="330" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1625315728243">
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1627110828216" />
+    <state x="689" y="330" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1627110825668">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="689" y="330" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1625315728243" />
+    <state x="689" y="330" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1627110825668" />
+    <state x="100" y="102" width="1720" height="878" key="AVDManager" timestamp="1627108298454">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="102" width="1720" height="878" key="AVDManager/0.0.1920.1080@0.0.1920.1080" timestamp="1627108298454" />
     <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1625242503514">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1625242503514" />
-    <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1624708295494">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="687" y="223" key="FileChooserDialogImpl" timestamp="1627107450340">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624708295494" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1625316773951">
+    <state x="687" y="223" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1627107450340" />
+    <state width="1860" height="239" key="GridCell.Tab.0.bottom" timestamp="1627110831075">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1863" height="139" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1625316773951" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1625316773951">
+    <state width="1860" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1627110831075" />
+    <state width="1860" height="239" key="GridCell.Tab.0.center" timestamp="1627110831075">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1863" height="139" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1625316773951" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1625316773950">
+    <state width="1860" height="239" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1627110831075" />
+    <state width="1860" height="239" key="GridCell.Tab.0.left" timestamp="1627110831075">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1863" height="139" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1625316773950" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1625316773951">
+    <state width="1860" height="239" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1627110831075" />
+    <state width="1860" height="239" key="GridCell.Tab.0.right" timestamp="1627110831075">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1863" height="139" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1625316773951" />
+    <state width="1860" height="239" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1627110831075" />
     <state x="598" y="301" key="MultipleFileMergeDialog" timestamp="1625314047468">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="598" y="301" key="MultipleFileMergeDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1625314047468" />
-    <state x="336" y="77" key="SettingsEditor" timestamp="1625150768991">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="336" y="80" key="SettingsEditor" timestamp="1627103356026">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="336" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1625150768991" />
-    <state x="452" y="194" key="Vcs.Push.Dialog.v2" timestamp="1625314054153">
+    <state x="336" y="80" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1627103356026" />
+    <state x="452" y="194" key="Vcs.Push.Dialog.v2" timestamp="1625321770930">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625139495921" />
-    <state x="452" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1625314054153" />
+    <state x="452" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1625321770930" />
     <state x="515" y="41" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1625123114965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -196,15 +203,15 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="769" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1625314083414" />
-    <state x="645" y="255" width="712" height="823" key="find.popup" timestamp="1625314647544">
+    <state x="645" y="255" width="712" height="823" key="find.popup" timestamp="1627111110145">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="645" y="246" width="712" height="792" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625151084813" />
-    <state x="645" y="255" width="712" height="823" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1625314647544" />
-    <state x="616" y="250" width="672" height="677" key="run.anything.popup" timestamp="1625206068579">
+    <state x="645" y="255" width="712" height="823" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1627111110145" />
+    <state x="616" y="250" width="672" height="677" key="run.anything.popup" timestamp="1627101089052">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="616" y="250" width="672" height="677" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1625206068579" />
+    <state x="616" y="250" width="672" height="677" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1627101089052" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -218,11 +225,6 @@
           <url>file://$PROJECT_DIR$/lib/Webinar/single_wbinar.dart</url>
           <line>900</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/main.dart</url>
-          <line>16</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -307,9 +307,6 @@ class _DesktopCourseDetailsState extends State<DesktopCourseDetails> {
                                   chapterWidget: chapterWidget,
                                 );
                                 courseDetails.add(messageDubble);
-
-                                //   }
-                                // }
                               }
                               return Column(
                                 children: courseDetails,

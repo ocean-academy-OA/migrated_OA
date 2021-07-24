@@ -305,19 +305,17 @@ class _MobileCourseDetailsState extends State<MobileCourseDetails> {
                       //List<String> subjects = [];
                       for (var message in messages) {
                         List<Widget> chapterWidget = [];
-                        final messageText = message[widget.trainer];
-                        final messageSender = message[widget.course];
-                        // final messageSession =
-                        //     message[widget.time];
-                        final messageCoursedescription =
-                            message[widget.discription];
-                        // final docid = message.id;
-                        // for (var k = 0;
-                        //     k < syllabus.length + 1;
-                        //     k++) {
-                        //   print("k.String ${k.toString()}");
-                        //   if (k.toString() == docid) {
+                        // final messageText = message[widget.trainer];
+                        // final messageSender = message[widget.course];
+
+                        // final messageCoursedescription =
+                        //     message[widget.discription];
+
                         final messageTopic = message['section'];
+                        print('%%%%%%%%%%%%%%%');
+
+                        print(messageTopic);
+                        print('%%%%%%%%%%%%%%%');
                         for (var i = 0; i < message["chapter"].length; i++) {
                           if ((chapterWidget == null)) {
                             return Container(
@@ -340,7 +338,7 @@ class _MobileCourseDetailsState extends State<MobileCourseDetails> {
                                       child: Text(
                                         messageContent,
                                         style: TextStyle(
-                                          fontSize: 18.0,
+                                          fontSize: 20.0,
                                         ),
                                       ),
                                     ),
@@ -352,17 +350,15 @@ class _MobileCourseDetailsState extends State<MobileCourseDetails> {
                         }
 
                         final messageDubble = CourseDescription(
-                          trainername: messageText,
-                          coursename: messageSender,
+                          trainername: 'trainer name => course_deteils.dart',
+                          coursename: 'coursename => course_deteils.dart',
                           // session: messageSession,
-                          coursedescription: messageCoursedescription,
+                          coursedescription:
+                              'coursedescription => course_deteils.dart',
                           topic: messageTopic,
                           chapterWidget: chapterWidget,
                         );
                         courseDetails.add(messageDubble);
-
-                        //   }
-                        // }
                       }
                       return Column(
                         children: courseDetails,

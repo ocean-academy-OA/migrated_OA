@@ -19,12 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87fed383-5a4e-429d-81ff-dc833cd112da" name="Default Changelist" comment="table of content issue clear">
+    <list default="true" id="87fed383-5a4e-429d-81ff-dc833cd112da" name="Default Changelist" comment="update initial">
+      <change beforePath="$PROJECT_DIR$/.firebaserc" beforeDir="false" afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/AboutUs/ViewsAbout/mobile_aboutus.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AboutUs/ViewsAbout/mobile_aboutus.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/AboutUs/ViewsAbout/tablet_aboutus.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AboutUs/ViewsAbout/tablet_aboutus.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ClassRoom/CourseView/desktop_classroom/desktop_CourseView.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ClassRoom/CourseView/desktop_classroom/desktop_CourseView.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Login/Login_View/log_in.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Login/Login_View/log_in.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/generated_plugin_registrant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generated_plugin_registrant.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +49,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1uTm6D6REmPjSGGobDpi1KyG2l6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -169,25 +179,25 @@
     </state>
     <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624708295494" />
     <state x="687" y="223" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1627107450340" />
-    <state width="1860" height="341" key="GridCell.Tab.0.bottom" timestamp="1627116772432">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1863" height="279" key="GridCell.Tab.0.bottom" timestamp="1627565368622">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="139" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
+    <state width="1863" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627565368622" />
     <state width="1860" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1627116772432" />
-    <state width="1860" height="341" key="GridCell.Tab.0.center" timestamp="1627116772432">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1863" height="279" key="GridCell.Tab.0.center" timestamp="1627565368622">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="139" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
+    <state width="1863" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627565368622" />
     <state width="1860" height="341" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1627116772432" />
-    <state width="1860" height="341" key="GridCell.Tab.0.left" timestamp="1627116772432">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1863" height="279" key="GridCell.Tab.0.left" timestamp="1627565368622">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="139" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
+    <state width="1863" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627565368622" />
     <state width="1860" height="341" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1627116772432" />
-    <state width="1860" height="341" key="GridCell.Tab.0.right" timestamp="1627116772432">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1863" height="279" key="GridCell.Tab.0.right" timestamp="1627565368622">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="139" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
+    <state width="1863" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627565368622" />
     <state width="1860" height="341" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1627116772432" />
     <state x="598" y="301" key="MultipleFileMergeDialog" timestamp="1625314047468">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -212,10 +222,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="769" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1625314083414" />
-    <state x="645" y="255" width="712" height="823" key="find.popup" timestamp="1627117315414">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="645" y="246" width="712" height="792" key="find.popup" timestamp="1627617282072">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="246" width="712" height="792" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625151084813" />
+    <state x="645" y="246" width="712" height="792" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1627617282072" />
     <state x="645" y="255" width="712" height="823" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1627117315414" />
     <state x="616" y="250" width="672" height="677" key="run.anything.popup" timestamp="1627101089052">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -226,14 +236,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/Login/Login_View/log_in.dart</url>
-          <line>188</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
           <url>file://$PROJECT_DIR$/lib/Webinar/single_wbinar.dart</url>
           <line>900</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/ClassRoom/Certificates/desktop_certificate.dart</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

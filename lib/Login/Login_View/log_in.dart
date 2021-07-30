@@ -128,7 +128,6 @@ class _LogInState extends State<LogIn> {
                             SizedBox(
                               height: 10.0,
                             ),
-
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               crossAxisAlignment: CrossAxisAlignment.start,
@@ -258,21 +257,6 @@ class _LogInState extends State<LogIn> {
 
                                         ///todo remove the hide get otp
                                         //session();
-
-                                        //
-                                        // Provider.of<Routing>(context,
-                                        //         listen: false)
-                                        //     .updateRouting(
-                                        //         widget: OTP(
-                                        //   confirmationResult: confirmationResult,
-                                        // ));
-                                        // Navigator.push(
-                                        //     context,
-                                        //     MaterialPageRoute(
-                                        //         builder: (context) => OTP(
-                                        //               confirmationResult:
-                                        //                   confirmationResult,
-                                        //             )));
                                         await getOTP();
 
                                         locator<NavigationService>()
@@ -283,32 +267,6 @@ class _LogInState extends State<LogIn> {
                                     }),
                               ],
                             ),
-                            // Row(
-                            //   children: [
-                            //     Checkbox(
-                            //       value: rememberMe,
-                            //       activeColor: Colors.blue,
-                            //       checkColor: Colors.white,
-                            //       onChanged: (bool value) {
-                            //         setState(() {
-                            //           if (rememberMe) {
-                            //             print(rememberMe);
-                            //             rememberMe = value;
-                            //             print(rememberMe);
-                            //           } else {
-                            //             rememberMe = value;
-                            //             print(rememberMe);
-                            //           }
-                            //         });
-                            //       },
-                            //     ),
-                            //     Text(
-                            //       'Remember Me',
-                            //       style: TextStyle(
-                            //           color: Colors.white, fontSize: 18.0),
-                            //     ),
-                            //   ],
-                            // ),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [

@@ -53,7 +53,7 @@ class _MenuBarTabletState extends State<MenuBarTablet> {
         //         color: Colors.white,
         //         fontSize: 20.0,
         //         fontWeight: FontWeight.bold,
-        //         fontFamily: "Gilroy"),
+        //         fontFamily: "Mulish"),
         //   ),
         //   minWidth: 150.0,
         //   height: 50,

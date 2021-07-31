@@ -10,7 +10,7 @@ String offlinetrainingcontent =
 String onlinetrainingcontent =
     "Our online training method enables long-distance learning. This way of training is no lesser than the conventional offline training mode. Online training ensures flexibility, easy accessibility of resources, and equal support from trainers. This method of training works even with low-speed internet connections.";
 String onlineVideoCourse =
-    "Online Video Courses.Our Online Video Courses give best leverage to flexible learning in their own learning phase. Enrolled candidates can access the High Quality pre-recorded courses from anywhere, anytime with their flexible time and phase. ";
+    "Our Online Video Courses give best leverage to flexible learning in their own learning phase. Enrolled candidates can access the High Quality pre-recorded courses from anywhere, anytime with their flexible time and phase. ";
 String placementcontent =
     "We not only enlighten students with our knowledge but also help develop their career. Our students have grabbed placed in various firms and MNCs.";
 String ourjourneycontent =

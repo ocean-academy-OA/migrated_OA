@@ -11,26 +11,29 @@ const menuTextStyle = TextStyle(
     color: Color(0xFF6792B1),
     inherit: false,
     fontWeight: FontWeight.normal);
-const kcontentcolor = Color(0xFF717171);
-const kfontname = "Gilroy";
+const kcontentcolor = Color(0xFF1C1C1C);
+const kfontname = "Mulish";
 
 const contentTextStyle = TextStyle(
-  fontSize: 19,
-  color: kcontentcolor,
   inherit: false,
-  fontWeight: FontWeight.normal,
+  fontWeight: FontWeight.w400,
+  fontSize: 20,
+  fontFamily: kfontname,
+  color: kcontentcolor,
 );
 const otherSmallContentTextStyle = TextStyle(
   fontSize: 18,
   color: kcontentcolor,
   inherit: false,
-  fontWeight: FontWeight.bold,
+  fontFamily: 'Mulish',
+  // fontWeight: FontWeight.bold,
 );
 const otherSmallHeaddingTextStyle = TextStyle(
-  fontSize: 26,
-  color: textColor,
   inherit: false,
-  fontWeight: FontWeight.bold,
+  fontWeight: FontWeight.w400,
+  fontSize: 20,
+  fontFamily: kfontname,
+  color: kcontentcolor,
 );
 
 const logInButtonPadding = EdgeInsets.all(20.0);

@@ -185,7 +185,7 @@ class _MyCourseDbState extends State<MyCourseDb> {
                     style: TextStyle(
                       fontSize: 17.0,
                       color: Colors.black54,
-                      fontFamily: "Gilroy",
+                      fontFamily: "Mulish",
                     ),
                   ),
                 ),
@@ -303,7 +303,7 @@ class _MyCourseDbState extends State<MyCourseDb> {
                           style: TextStyle(
                             color: Colors.blue,
                             fontWeight: FontWeight.w400,
-                            fontFamily: "Gilroy",
+                            fontFamily: "Mulish",
                           ),
                         ))
 

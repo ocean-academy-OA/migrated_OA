@@ -157,7 +157,7 @@ class TabletPurchaseDB extends StatelessWidget {
                                 "Course Name",
                                 style: TextStyle(
                                   fontWeight: FontWeight.w700,
-                                  fontFamily: "Gilroy",
+                                  fontFamily: "Mulish",
                                 ),
                               ),
                             ),
@@ -167,7 +167,7 @@ class TabletPurchaseDB extends StatelessWidget {
                               child: Text(
                                 course,
                                 style: TextStyle(
-                                  fontFamily: "Gilroy",
+                                  fontFamily: "Mulish",
                                 ),
                               ),
                             ),
@@ -178,7 +178,7 @@ class TabletPurchaseDB extends StatelessWidget {
                                 "Paid Via",
                                 style: TextStyle(
                                   fontWeight: FontWeight.w700,
-                                  fontFamily: "Gilroy",
+                                  fontFamily: "Mulish",
                                 ),
                               ),
                             ),
@@ -188,7 +188,7 @@ class TabletPurchaseDB extends StatelessWidget {
                               child: Text(
                                 paidvia,
                                 style: TextStyle(
-                                  fontFamily: "Gilroy",
+                                  fontFamily: "Mulish",
                                 ),
                               ),
                             ),
@@ -202,7 +202,7 @@ class TabletPurchaseDB extends StatelessWidget {
                                 "Purchased Date",
                                 style: TextStyle(
                                   fontWeight: FontWeight.w700,
-                                  fontFamily: "Gilroy",
+                                  fontFamily: "Mulish",
                                 ),
                               ),
                             ),
@@ -212,7 +212,7 @@ class TabletPurchaseDB extends StatelessWidget {
                               child: Text(
                                 purchaseddate,
                                 style: TextStyle(
-                                  fontFamily: "Gilroy",
+                                  fontFamily: "Mulish",
                                 ),
                               ),
                             ),
@@ -223,7 +223,7 @@ class TabletPurchaseDB extends StatelessWidget {
                                 "Status",
                                 style: TextStyle(
                                   fontWeight: FontWeight.w700,
-                                  fontFamily: "Gilroy",
+                                  fontFamily: "Mulish",
                                 ),
                               ),
                             ),
@@ -234,7 +234,7 @@ class TabletPurchaseDB extends StatelessWidget {
                                 status,
                                 style: TextStyle(
                                     color: Colors.green,
-                                    fontFamily: "Gilroy",
+                                    fontFamily: "Mulish",
                                     fontWeight: FontWeight.w500),
                               ),
                             ),
@@ -255,7 +255,7 @@ class TabletPurchaseDB extends StatelessWidget {
                               "Total Amount",
                               style: TextStyle(
                                 fontWeight: FontWeight.w500,
-                                fontFamily: "Gilroy",
+                                fontFamily: "Mulish",
                               ),
                             ),
                           ),
@@ -264,7 +264,7 @@ class TabletPurchaseDB extends StatelessWidget {
                             child: Text(
                               "₹ $totalamount",
                               style: TextStyle(
-                                fontFamily: "Gilroy",
+                                fontFamily: "Mulish",
                               ),
                             ),
                           ),
@@ -291,7 +291,7 @@ class TabletPurchaseDB extends StatelessWidget {
                   course,
                   style: TextStyle(
                     fontSize: 18.0,
-                    fontFamily: "Gilroy",
+                    fontFamily: "Mulish",
                   ),
                 ),
               ],

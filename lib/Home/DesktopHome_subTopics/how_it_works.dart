@@ -50,10 +50,13 @@ class HowItWorks extends StatelessWidget {
                       ),
                       Padding(
                         padding: const EdgeInsets.all(10.0),
-                        child: Text(
-                          'Offline Classroom Training',
-                          style: otherSmallHeaddingTextStyle,
-                        ),
+                        child: Text('Offline Classroom Training',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 20,
+                              fontFamily: kfontname,
+                              color: kcontentcolor,
+                            )),
                       ),
                       Container(
                         //padding: EdgeInsets.all(10.0),
@@ -78,7 +81,12 @@ class HowItWorks extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.all(10.0),
                         child: Text('Online Live Training',
-                            style: otherSmallHeaddingTextStyle),
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 20,
+                              fontFamily: kfontname,
+                              color: kcontentcolor,
+                            )),
                       ),
                       Container(
                         //padding: EdgeInsets.all(10.0),
@@ -103,7 +111,12 @@ class HowItWorks extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.all(10.0),
                         child: Text('Online Video Courses',
-                            style: otherSmallHeaddingTextStyle),
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 20,
+                              fontFamily: kfontname,
+                              color: kcontentcolor,
+                            )),
                       ),
                       Container(
                         //padding: EdgeInsets.all(10.0),

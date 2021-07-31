@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_newocean/common/constants.dart';
 
 class ContainerServiceWidget extends StatefulWidget {
   final String title;
@@ -67,7 +68,7 @@ class _ContainerServiceWidgetState extends State<ContainerServiceWidget> {
                   color: Colors.lightBlue,
                   fontWeight: FontWeight.bold,
                   fontSize: 22.0,
-                  fontFamily: "Gilroy"),
+                  fontFamily: "Mulish"),
             ),
             SizedBox(
               height: 10.0,
@@ -76,9 +77,12 @@ class _ContainerServiceWidgetState extends State<ContainerServiceWidget> {
               widget.content,
               textAlign: TextAlign.center,
               style: TextStyle(
-                  color: Colors.grey[600],
-                  fontSize: 20.0,
-                  fontFamily: 'Gilroy'),
+                inherit: false,
+                fontWeight: FontWeight.w400,
+                fontSize: 20,
+                fontFamily: kfontname,
+                color: kcontentcolor,
+              ),
             ),
             SizedBox(
               height: 15.0,

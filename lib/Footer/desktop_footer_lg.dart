@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_app_newocean/AboutUs/ViewsAbout/Responsive_about.dart';
 import 'package:flutter_app_newocean/Menu/Menu_DeskTop.dart';
+import 'package:flutter_app_newocean/Privacy%20Policy/faq.dart';
+import 'package:flutter_app_newocean/Privacy%20Policy/help.dart';
 import 'package:flutter_app_newocean/common/constants.dart';
 import 'package:flutter_app_newocean/common/material_button.dart';
 import 'package:flutter_app_newocean/getx_controller.dart';
@@ -333,6 +335,28 @@ class _DesktopFooterLgState extends State<DesktopFooterLg> {
                       MouseRegion(
                         cursor: SystemMouseCursors.click,
                         child: GestureDetector(
+                          onTap: () {
+                            Get.defaultDialog(
+                              actions: [
+                                Padding(
+                                  padding: const EdgeInsets.all(15.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.end,
+                                    children: [
+                                      TextButton(
+                                          onPressed: () {
+                                            Get.back();
+                                          },
+                                          child: Text('Close'))
+                                    ],
+                                  ),
+                                )
+                              ],
+                              cancelTextColor: Colors.white,
+                              title: 'FAQ',
+                              content: FAQ(),
+                            );
+                          },
                           child: Container(
                               child: Text(
                             'FAQ',
@@ -351,7 +375,28 @@ class _DesktopFooterLgState extends State<DesktopFooterLg> {
                             'HELP',
                             style: kbottom,
                           )),
-                          onTap: () {},
+                          onTap: () {
+                            Get.defaultDialog(
+                              actions: [
+                                Padding(
+                                  padding: const EdgeInsets.all(15.0),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.end,
+                                    children: [
+                                      TextButton(
+                                          onPressed: () {
+                                            Get.back();
+                                          },
+                                          child: Text('Close'))
+                                    ],
+                                  ),
+                                )
+                              ],
+                              cancelTextColor: Colors.white,
+                              title: 'Help',
+                              content: HelpWidget(),
+                            );
+                          },
                         ),
                       ),
                     ],
@@ -380,20 +425,25 @@ class _DesktopFooterLgState extends State<DesktopFooterLg> {
                           child: footerMouseRegion(text: "WORK WITH US")),
                       SizedBox(height: 20.0),
                       Container(
-                          width: 180,
-                          alignment: Alignment.center,
-                          child: footerMouseRegion(text: "PRIVATE POLICIES")),
+                        width: 180,
+                        alignment: Alignment.center,
+                        child: footerMouseRegion(
+                            text: "PRIVATE POLICIES",
+                            onTap: () {
+                              locator<NavigationService>()
+                                  .navigateTo(Privacy_Policy);
+                            }),
+                      ),
                       SizedBox(height: 20.0),
                       Container(
                           width: 250,
                           alignment: Alignment.center,
-                          child:
-                              footerMouseRegion(text: "TERMS AND CONDITIONS")),
-                      SizedBox(height: 20.0),
-                      Container(
-                          width: 180,
-                          alignment: Alignment.center,
-                          child: footerMouseRegion(text: "PRESS ENQUIRES")),
+                          child: footerMouseRegion(
+                              text: "TERMS AND CONDITIONS",
+                              onTap: () {
+                                locator<NavigationService>()
+                                    .navigateTo(Terms_And_Condition);
+                              })),
                     ],
                   ),
                 ),

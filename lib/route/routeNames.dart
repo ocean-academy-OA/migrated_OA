@@ -28,3 +28,5 @@ const String Profile = "/Profile?id=+91 1234567890";
 const String UserNotification = "/UserNotification?id=+91 1234567890";
 const String ViewSchedule =
     "/ViewSchedule?courseName=name&batchID=batch&userName=user";
+const String Privacy_Policy = "/privacy_policy";
+const String Terms_And_Condition = "/terms_and_condition";

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_newocean/Buttons/border_button.dart';
 import 'package:flutter_app_newocean/Extension/Hover_Extension.dart';
+import 'package:flutter_app_newocean/common/constants.dart';
 
 // ignore: must_be_immutable
 class OnlineCourseCard extends StatefulWidget {
@@ -73,10 +74,12 @@ class _OnlineCourseCardState extends State<OnlineCourseCard> {
                   child: Text(
                     "${widget.coursename} full package course",
                     style: TextStyle(
-                        fontSize: 20.0,
-                        color: Colors.grey[600],
-                        fontFamily: 'Gilroy',
-                        fontWeight: FontWeight.bold),
+                      inherit: false,
+                      fontWeight: FontWeight.w400,
+                      fontSize: 20,
+                      fontFamily: kfontname,
+                      color: kcontentcolor,
+                    ),
                   ),
                 ),
                 Container(
@@ -84,10 +87,12 @@ class _OnlineCourseCardState extends State<OnlineCourseCard> {
                   child: Text(
                     "Trainer ${widget.trainername}",
                     style: TextStyle(
-                        fontSize: 20.0,
-                        color: Colors.grey[600],
-                        fontFamily: 'Gilroy',
-                        fontWeight: FontWeight.bold),
+                      inherit: false,
+                      fontWeight: FontWeight.w400,
+                      fontSize: 20,
+                      fontFamily: kfontname,
+                      color: kcontentcolor,
+                    ),
                   ),
                 ),
                 Container(
@@ -108,7 +113,7 @@ class _OnlineCourseCardState extends State<OnlineCourseCard> {
                               style: TextStyle(
                                   fontSize: 20.0,
                                   color: Colors.grey[600],
-                                  fontFamily: 'Gilroy',
+                                  fontFamily: 'Mulish',
                                   fontWeight: FontWeight.normal),
                             ),
                           ],
@@ -127,7 +132,7 @@ class _OnlineCourseCardState extends State<OnlineCourseCard> {
                               style: TextStyle(
                                   fontSize: 20.0,
                                   color: Colors.grey[600],
-                                  fontFamily: 'Gilroy',
+                                  fontFamily: 'Mulish',
                                   fontWeight: FontWeight.normal),
                             ),
                           ],
@@ -146,7 +151,7 @@ class _OnlineCourseCardState extends State<OnlineCourseCard> {
                               style: TextStyle(
                                   fontSize: 20.0,
                                   color: Colors.grey[600],
-                                  fontFamily: 'Gilroy',
+                                  fontFamily: 'Mulish',
                                   fontWeight: FontWeight.normal),
                             ),
                           ],

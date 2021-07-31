@@ -573,13 +573,7 @@ class _ContentWidgetState extends State<ContentWidget> {
                             ? () {
                                 locator<NavigationService>().navigateTo(
                                     '/zoomlink?zoomLink=https://brindakarthik.github.io/zoom/?meetingNumber=$zoomLink&username=${CoursesView.courseEnroll}&password=$zoomPassword');
-                                // Navigator.push(
-                                //     context,
-                                //     MaterialPageRoute(
-                                //         builder: (context) => ZoomIntegration(
-                                //           zoomLink:
-                                //           "https://brindakarthik.github.io/zoom/?meetingNumber=$zoomLink&username=abc&password=$zoomPassword",
-                                //         )));
+
                                 print(zoomPassword);
                                 print(zoomLink);
                               }

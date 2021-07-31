@@ -19,12 +19,65 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87fed383-5a4e-429d-81ff-dc833cd112da" name="Default Changelist" comment="table of content issue clear">
+    <list default="true" id="87fed383-5a4e-429d-81ff-dc833cd112da" name="Default Changelist" comment="table of content, meet our mentor, schedule issue clear">
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Mulish-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Privacy Policy/content_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Privacy Policy/faq.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Privacy Policy/help.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Privacy Policy/policyContent.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Privacy Policy/privacy_policy.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Privacy Policy/responsivePrivacyPolicy.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Privacy Policy/responsiveTermsAndCondition.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Privacy Policy/termsAndCondition.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/AboutUs/ViewsAbout/mobile_aboutus.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AboutUs/ViewsAbout/mobile_aboutus.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/AboutUs/ViewsAbout/tablet_aboutus.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AboutUs/ViewsAbout/tablet_aboutus.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ClassRoom/CourseView/all_Course/All_Course.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ClassRoom/CourseView/all_Course/All_Course.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ClassRoom/CourseView/desktop_classroom/desktop_CourseView.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ClassRoom/CourseView/desktop_classroom/desktop_CourseView.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ClassRoom/CourseView/my_Course/My_course.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ClassRoom/CourseView/my_Course/My_course.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ClassRoom/Purchase/mobile_purchase_details.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ClassRoom/Purchase/mobile_purchase_details.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ContactUs/desktop_contactus.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ContactUs/desktop_contactus.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ContactUs/tablet_contactus.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ContactUs/tablet_contactus.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Course/Course_widget/offline_course_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Course/Course_widget/offline_course_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Course/Course_widget/online_course_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Course/Course_widget/online_course_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Footer/desktop_footer_lg.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Footer/desktop_footer_lg.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Footer/desktop_footer_md.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Footer/desktop_footer_md.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Footer/tablet_footer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Footer/tablet_footer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Home/DesktopHome_subTopics/how_it_works.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Home/DesktopHome_subTopics/how_it_works.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Login/Login_View/log_in.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Login/Login_View/log_in.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Login_Menubar/Login_Endrawer/desktop_end_drawer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Login_Menubar/Login_Endrawer/desktop_end_drawer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Menu/Menu_DeskTop.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Menu/Menu_DeskTop.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Menu/Menu_Tablet.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Menu/Menu_Tablet.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Service/service_widget/Desktop_widget/card_design.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Service/service_widget/Desktop_widget/card_design.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Service/service_widget/Mobile_Tab_widget/card_design.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Service/service_widget/Mobile_Tab_widget/card_design.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Webinar/mobile_single webinar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Webinar/mobile_single webinar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Webinar/single_wbinar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Webinar/single_wbinar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common/constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common/text.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common/text.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/practice/main_testing.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/practice/main_testing.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/route/dynamic_routing.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/route/dynamic_routing.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/route/routeNames.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/route/routeNames.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/testmain.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/testmain.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +104,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thamizh/webproject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
     <property name="settings.editor.selected.configurable" value="emulator" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thami\Documents\Thamizharasan\GitHub\OA_migrated_project\fonts" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -126,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627111763781</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="table of content, meet our mentor, schedule issue clear">
+      <created>1627117967033</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1627117967033</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,16 +210,19 @@
     <MESSAGE value="update completed" />
     <MESSAGE value="webinar started" />
     <MESSAGE value="table of content issue clear" />
-    <option name="LAST_COMMIT_MESSAGE" value="table of content issue clear" />
+    <MESSAGE value="table of content, meet our mentor, schedule issue clear" />
+    <option name="LAST_COMMIT_MESSAGE" value="table of content, meet our mentor, schedule issue clear" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627110828216">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="414" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627642726485">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="414" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627642726485" />
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1627110828216" />
-    <state x="689" y="330" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1627110825668">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="689" y="318" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1627642725522">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="689" y="318" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627642725522" />
     <state x="689" y="330" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1627110825668" />
     <state x="100" y="102" width="1720" height="878" key="AVDManager" timestamp="1627108298454">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -169,26 +237,26 @@
     </state>
     <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624708295494" />
     <state x="687" y="223" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1627107450340" />
-    <state width="1860" height="341" key="GridCell.Tab.0.bottom" timestamp="1627116772432">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1860" height="551" key="GridCell.Tab.0.bottom" timestamp="1627648891707">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="139" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
-    <state width="1860" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1627116772432" />
-    <state width="1860" height="341" key="GridCell.Tab.0.center" timestamp="1627116772432">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1860" height="551" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627648891707" />
+    <state width="1860" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1627382978569" />
+    <state width="1860" height="551" key="GridCell.Tab.0.center" timestamp="1627648891707">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="139" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
-    <state width="1860" height="341" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1627116772432" />
-    <state width="1860" height="341" key="GridCell.Tab.0.left" timestamp="1627116772432">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1860" height="551" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627648891707" />
+    <state width="1860" height="243" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1627382978569" />
+    <state width="1860" height="551" key="GridCell.Tab.0.left" timestamp="1627648891707">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="139" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
-    <state width="1860" height="341" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1627116772432" />
-    <state width="1860" height="341" key="GridCell.Tab.0.right" timestamp="1627116772432">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1860" height="551" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627648891707" />
+    <state width="1860" height="243" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1627382978569" />
+    <state width="1860" height="551" key="GridCell.Tab.0.right" timestamp="1627648891707">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1863" height="139" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625148822788" />
-    <state width="1860" height="341" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1627116772432" />
+    <state width="1860" height="551" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627648891707" />
+    <state width="1860" height="243" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1627382978569" />
     <state x="598" y="301" key="MultipleFileMergeDialog" timestamp="1625314047468">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -198,25 +266,25 @@
     </state>
     <state x="336" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1625150768991" />
     <state x="336" y="80" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1627103356026" />
-    <state x="452" y="194" key="Vcs.Push.Dialog.v2" timestamp="1627111770839">
+    <state x="452" y="194" key="Vcs.Push.Dialog.v2" timestamp="1627129746291">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625139495921" />
-    <state x="452" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1627111770839" />
-    <state x="515" y="43" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1627117307391">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="452" y="194" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1627129746291" />
+    <state x="515" y="41" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1627391835503">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="515" y="41" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1625123114965" />
-    <state x="515" y="43" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1627117307391" />
+    <state x="515" y="41" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1627391835503" />
+    <state x="515" y="43" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1627119392028" />
     <state x="769" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1625314083414">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="769" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1625314083414" />
-    <state x="645" y="255" width="712" height="823" key="find.popup" timestamp="1627117315414">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="645" y="246" width="712" height="792" key="find.popup" timestamp="1627645949291">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="246" width="712" height="792" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625151084813" />
-    <state x="645" y="255" width="712" height="823" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1627117315414" />
+    <state x="645" y="246" width="712" height="792" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1627645949291" />
+    <state x="735" y="105" width="712" height="823" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1627382834733" />
     <state x="616" y="250" width="672" height="677" key="run.anything.popup" timestamp="1627101089052">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -232,8 +300,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
           <url>file://$PROJECT_DIR$/lib/Webinar/single_wbinar.dart</url>
-          <line>900</line>
+          <line>906</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/Privacy Policy/privacy_policy.dart</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -324,6 +324,9 @@ class _LogInState extends State<LogIn> {
                                           TextSpan(
                                               recognizer: TapGestureRecognizer()
                                                 ..onTap = () {
+                                                  locator<NavigationService>()
+                                                      .navigateTo(
+                                                          Privacy_Policy);
                                                   print('Privacy Policy taped');
                                                 },
                                               text: 'Privacy Policy',
@@ -333,6 +336,9 @@ class _LogInState extends State<LogIn> {
                                           TextSpan(
                                               recognizer: TapGestureRecognizer()
                                                 ..onTap = () {
+                                                  locator<NavigationService>()
+                                                      .navigateTo(
+                                                          Terms_And_Condition);
                                                   print('Terms of Use taped');
                                                 },
                                               text: 'Terms of Use',

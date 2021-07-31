@@ -67,7 +67,7 @@ class _ContainerServiceWidgetState extends State<ContainerServiceWidget> {
                   color: Colors.lightBlue,
                   fontWeight: FontWeight.bold,
                   fontSize: 22.0,
-                  fontFamily: "Gilroy"),
+                  fontFamily: "Mulish"),
             ),
             SizedBox(
               height: 10.0,
@@ -78,7 +78,7 @@ class _ContainerServiceWidgetState extends State<ContainerServiceWidget> {
               style: TextStyle(
                   color: Colors.grey[600],
                   fontSize: 20.0,
-                  fontFamily: 'Gilroy'),
+                  fontFamily: 'Mulish'),
             ),
             SizedBox(
               height: 15.0,

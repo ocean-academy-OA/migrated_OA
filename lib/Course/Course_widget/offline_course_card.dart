@@ -945,7 +945,7 @@ class _OfflineCourseCardState extends State<OfflineCourseCard> {
                     style: TextStyle(
                         fontSize: 20.0,
                         color: Colors.grey[600],
-                        fontFamily: 'Gilroy',
+                        fontFamily: 'Mulish',
                         fontWeight: FontWeight.bold),
                   ),
                 ),

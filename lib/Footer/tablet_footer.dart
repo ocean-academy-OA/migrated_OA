@@ -4,6 +4,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_app_newocean/AboutUs/ViewsAbout/Responsive_about.dart';
+import 'package:flutter_app_newocean/Privacy%20Policy/faq.dart';
+import 'package:flutter_app_newocean/Privacy%20Policy/help.dart';
 import 'package:flutter_app_newocean/common/constants.dart';
 import 'package:flutter_app_newocean/common/material_button.dart';
 import 'package:flutter_app_newocean/route/navigation_locator.dart';
@@ -11,6 +13,7 @@ import 'package:flutter_app_newocean/route/navigation_service.dart';
 import 'package:flutter_app_newocean/route/routeNames.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 
 final _firestore = FirebaseFirestore.instance;
@@ -220,7 +223,31 @@ class _TabletFooterState extends State<TabletFooter> {
                               })),
                       SizedBox(height: 20.0),
                       GestureDetector(
-                          child: footerMouseRegion(text: "HELP", onTap: () {})),
+                          child: footerMouseRegion(
+                              text: "HELP",
+                              onTap: () {
+                                Get.defaultDialog(
+                                  actions: [
+                                    Padding(
+                                      padding: const EdgeInsets.all(15.0),
+                                      child: Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.end,
+                                        children: [
+                                          TextButton(
+                                              onPressed: () {
+                                                Get.back();
+                                              },
+                                              child: Text('Close'))
+                                        ],
+                                      ),
+                                    )
+                                  ],
+                                  cancelTextColor: Colors.white,
+                                  title: 'Help',
+                                  content: HelpWidget(),
+                                );
+                              })),
                     ],
                   ),
                 ),
@@ -237,7 +264,31 @@ class _TabletFooterState extends State<TabletFooter> {
                   child: Column(
                     children: [
                       GestureDetector(
-                          child: footerMouseRegion(text: "FAQ", onTap: () {})),
+                          child: footerMouseRegion(
+                              text: "FAQ",
+                              onTap: () {
+                                Get.defaultDialog(
+                                  actions: [
+                                    Padding(
+                                      padding: const EdgeInsets.all(15.0),
+                                      child: Row(
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.end,
+                                        children: [
+                                          TextButton(
+                                              onPressed: () {
+                                                Get.back();
+                                              },
+                                              child: Text('Close'))
+                                        ],
+                                      ),
+                                    )
+                                  ],
+                                  cancelTextColor: Colors.white,
+                                  title: 'FAQ',
+                                  content: FAQ(),
+                                );
+                              })),
                       SizedBox(height: 17.0),
                       GestureDetector(
                           child: footerMouseRegion(
@@ -245,15 +296,20 @@ class _TabletFooterState extends State<TabletFooter> {
                       SizedBox(height: 17.0),
                       GestureDetector(
                           child: footerMouseRegion(
-                              text: "PRIVATE POLICIES", onTap: () {})),
+                        text: "PRIVATE POLICIES",
+                        onTap: () {
+                          locator<NavigationService>()
+                              .navigateTo(Privacy_Policy);
+                        },
+                      )),
                       SizedBox(height: 17.0),
                       GestureDetector(
                           child: footerMouseRegion(
-                              text: "PRESS ENQUIRES", onTap: () {})),
-                      SizedBox(height: 17.0),
-                      GestureDetector(
-                          child: footerMouseRegion(
-                              text: "TERMS & CONDITIONS", onTap: () {})),
+                              text: "TERMS & CONDITIONS",
+                              onTap: () {
+                                locator<NavigationService>()
+                                    .navigateTo(Terms_And_Condition);
+                              })),
                     ],
                   ),
                 ),

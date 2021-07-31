@@ -10,6 +10,7 @@ import 'package:flutter_app_newocean/Webinar/mobile_wbinar/mobile_webinar_list.d
 import 'package:flutter_app_newocean/common/mobile_constents.dart';
 import 'package:flutter_app_newocean/route/navigation_locator.dart';
 import 'package:flutter_app_newocean/route/navigation_service.dart';
+import 'package:flutter_app_newocean/route/routeNames.dart';
 import 'package:intl/intl.dart';
 import 'package:slide_countdown_clock/slide_countdown_clock.dart';
 import 'package:http/http.dart' as http;
@@ -755,6 +756,8 @@ class _SingleWebinarDBState extends State<SingleWebinarDB> {
                                     TextSpan(
                                         recognizer: TapGestureRecognizer()
                                           ..onTap = () {
+                                            locator<NavigationService>()
+                                                .navigateTo(Privacy_Policy);
                                             print('Privacy Policy taped');
                                           },
                                         text: 'Privacy Policy',
@@ -763,6 +766,9 @@ class _SingleWebinarDBState extends State<SingleWebinarDB> {
                                     TextSpan(
                                         recognizer: TapGestureRecognizer()
                                           ..onTap = () {
+                                            locator<NavigationService>()
+                                                .navigateTo(
+                                                    Terms_And_Condition);
                                             print('Terms of Use taped');
                                           },
                                         text: 'Terms of Use',

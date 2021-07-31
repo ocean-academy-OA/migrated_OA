@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_newocean/Privacy%20Policy/privacy_policy.dart';
+import 'package:flutter_app_newocean/Privacy%20Policy/responsivePrivacyPolicy.dart';
+import 'package:flutter_app_newocean/Privacy%20Policy/responsiveTermsAndCondition.dart';
 import 'package:flutter_dropdown/flutter_dropdown.dart';
+import 'package:get/get.dart';
+import 'package:flutter_app_newocean/Privacy Policy/help.dart';
 
 import 'Webinar/webinr_class/responsive_webinar_class.dart';
 
@@ -8,20 +13,35 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+    return GetMaterialApp(
+        home: Scaffold(
+      body: Center(
+        child: TextButton(
+            onPressed: () {
+              Get.defaultDialog(
+                actions: [
+                  Padding(
+                    padding: const EdgeInsets.all(15.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        TextButton(
+                            onPressed: () {
+                              Get.back();
+                            },
+                            child: Text('Close'))
+                      ],
+                    ),
+                  )
+                ],
+                cancelTextColor: Colors.white,
+                title: 'Help',
+                content: HelpWidget(),
+              );
+            },
+            child: Text('alert')),
       ),
-      home: Scaffold(
-          appBar: PreferredSize(
-              child: Container(
-                child: Row(
-                  children: [],
-                ),
-              ),
-              preferredSize: Size.fromHeight(70.0)),
-          body: ResponsiveWbinarClass()),
-    );
+    ));
   }
 }
 

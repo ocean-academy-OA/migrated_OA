@@ -208,7 +208,7 @@ class _AllCourseDbState extends State<AllCourseDb> {
                     style: TextStyle(
                       fontSize: 17.0,
                       color: Colors.black54,
-                      fontFamily: "Gilroy",
+                      fontFamily: "Mulish",
                     ),
                   ),
                 ),
@@ -245,7 +245,7 @@ class _AllCourseDbState extends State<AllCourseDb> {
                             letterSpacing: 1,
                             color: Colors.blue,
                             fontWeight: FontWeight.w400,
-                            fontFamily: "Gilroy",
+                            fontFamily: "Mulish",
                           ),
                         ))
 

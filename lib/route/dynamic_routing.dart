@@ -16,6 +16,10 @@ import 'package:flutter_app_newocean/Home/Views/responsive_home.dart';
 import 'package:flutter_app_newocean/Login/Login_View/Login_responsive.dart';
 import 'package:flutter_app_newocean/Login/Login_View/otp.dart';
 import 'package:flutter_app_newocean/Login/Login_View/registration.dart';
+import 'package:flutter_app_newocean/Privacy%20Policy/privacy_policy.dart';
+import 'package:flutter_app_newocean/Privacy%20Policy/responsivePrivacyPolicy.dart';
+import 'package:flutter_app_newocean/Privacy%20Policy/responsiveTermsAndCondition.dart';
+import 'package:flutter_app_newocean/Privacy%20Policy/termsAndCondition.dart';
 
 import 'package:flutter_app_newocean/Service/ServiceViews/ResponsiveService.dart';
 import 'package:flutter_app_newocean/Thanks_Purchase/responsive_Purchase.dart';
@@ -371,12 +375,22 @@ Route<dynamic> generateRoute(
         //ResponsiveContactUs(),
         settings,
       );
+    case Privacy_Policy:
+      return _getPageRoute(
+        ResponsivePrivacyPolicy(),
+        settings,
+      );
+    case Terms_And_Condition:
+      return _getPageRoute(
+        ResponsiveTermsAndCondition(),
+        settings,
+      );
     default:
       print('session${MyApp.session}');
       getSession();
       // String userNumber =
       //     Uri.parse(settings.name).queryParameters["userNumber"];
-      print("jayalatha");
+
       Widget checking = MyApp.session != null
           ? ResponsiveClassRoomContent()
           : ResponsiveHome();

@@ -713,7 +713,7 @@ class _AlertState extends State<Alert> with SingleTickerProviderStateMixin {
                     color: Colors.grey,
                     fontSize: 30,
                     fontWeight: FontWeight.normal,
-                    fontFamily: "Gilroy",
+                    fontFamily: "Mulish",
                   ),
                 ),
                 // SizedBox(height: 40),

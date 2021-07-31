@@ -8,6 +8,7 @@ import 'package:flutter_app_newocean/route/navigation_locator.dart';
 import 'package:flutter_app_newocean/route/navigation_service.dart';
 import 'package:flutter_app_newocean/route/routeNames.dart';
 import 'package:get/get.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../ocean_icon/ocean_icons.dart';
 import '../route/routeNames.dart';
 
@@ -153,7 +154,14 @@ class _NavbarRoutingState extends State<NavbarRouting>
                   onTapUp: _onTapUp,
                   child:
                       Transform.scale(scale: _scale, child: _animatedButtonUI),
-                  onTap: () {
+                  onTap: () async {
+                    // SharedPreferences pref =
+                    //     await SharedPreferences.getInstance();
+                    // LoginResponsive.registerNumber = pref.getString('user');
+                    //
+                    // print(
+                    //     'yyyyyyyyyyyyyyyyyy ${LoginResponsive.registerNumber}');
+
                     LoginResponsive.registerNumber != null
                         ? valueController.navebars.value = 'Login'
                         : valueController.navebars.value = 'Home';
@@ -187,7 +195,7 @@ class _NavbarRoutingState extends State<NavbarRouting>
               color: menu[text] ? Colors.blue : Color(0xFF155575),
               fontSize: 20.0,
               fontWeight: FontWeight.bold,
-              fontFamily: "Gilroy"),
+              fontFamily: "Mulish"),
         ),
         onTap: () {
           setState(() {
@@ -216,14 +224,6 @@ class _NavbarRoutingState extends State<NavbarRouting>
               // offset: Offset(0.0, 0.1),
             ),
           ],
-          // gradient: LinearGradient(
-          //   begin: Alignment.topLeft,
-          //   end: Alignment.bottomRight,
-          //   colors: [
-          //     Colors.blue,
-          //     Color(0xff00D5F6),
-          //   ],
-          // ),
         ),
         child: Center(
           child: Text(

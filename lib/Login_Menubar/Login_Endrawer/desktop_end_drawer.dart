@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_app_newocean/Landing/Home_view.dart';
 import 'package:flutter_app_newocean/Login/Login_View/Login_responsive.dart';
@@ -95,8 +97,10 @@ class _DesktopEndDrawerState extends State<DesktopEndDrawer> {
                         await SharedPreferences.getInstance();
 
                     await prefs.setString('user', null);
+                    window.localStorage.remove('flutter.user');
                     LoginResponsive.registerNumber = null;
                     scaffoldKey.currentState.openDrawer();
+                    window.location.reload();
                     locator<NavigationService>().navigateTo(HomeRoute);
                     valueController.navebars.value = 'Home';
                   },
